@@ -267,8 +267,8 @@ local function draw_buffer()
   if M.repo.rebase.head then
     render_section("Rebasing: " .. M.repo.rebase.head, "rebase")
   end
-  render_section("Untracked files", "untracked")
   render_section("Unstaged changes", "unstaged")
+  render_section("Untracked files", "untracked")
   render_section("Staged changes", "staged")
   render_section("Stashes", "stashes")
   render_section("Unpulled changes", "unpulled")
